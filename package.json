@@ -1,0 +1,25 @@
+{
+  "name": "best_buy_website_clone_project-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paruljamwal/Bestbuypro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paruljamwal/Bestbuypro/issues"
+  },
+  "homepage": "https://github.com/paruljamwal/Bestbuypro#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  }
+}

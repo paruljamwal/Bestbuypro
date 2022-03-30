@@ -15,7 +15,7 @@ function loginfunction(event){
    for(var i = 0; i < regdUsers.length ;i++) {
    // console.log(regdUsers[i].username,regdUsers[i].password);
    if(regdUsers[i].username == user && regdUsers[i].password == pass){
-       window.location.href = "../landing page/index.html";
+       window.location.href = "./index.html";
    } 
 }
 }
