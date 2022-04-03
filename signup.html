@@ -23,27 +23,28 @@
 <div id="Signin" >
     <h2>Create an Account</h2>
     <p>Shopping for your business? <a href="">Create a business account.</a></p>
-    <form id="form">
+    <form id="form" >
 
         <h3>User Name</h3>
-        <input id="username"  type="text" placeholder="Enter username"/>
+        <input id="username"  type="text"  name="username" placeholder="Enter username"/>
 
         <h3>Email Address</h3>
-        <input id="email" type="text" placeholder="Enter email address"/>
+        <input id="email" type="email" name="email" placeholder="Enter email address"/>
 
         <h3>Password</h3>
-        <input id="password"  type="Password" placeholder="Enter password"/>
+        <input id="password"  type="password"  name="paswword" placeholder="Enter password"/>
 
         <h3> Confirm Password</h3>
-        <input id="confirmpassword"  type="Password" placeholder="Enter password"/>
+        <input id="confirmpassword"  type="Password"  name="confirmpaswword" placeholder="Enter password"/>
     
         <h3>Mobile Phone  Number</h3>
-        <input id="mob"  type="number" placeholder="Enter mobile number"/> <br> <br>
+        <input id="mob"  type="number"   name="mobilenumber" placeholder="Enter mobile number"/> <br> <br>
 
         <span id="messages"></span> <br> 
 
-        <input id="submit" type="submit" value="Create an Account"/>
+        <!-- <input id="submit" type="submit" value="Create an Account"/> -->
     </form>
+    <button onclick="Register()", id="submit">Sign up</button>
     </div>
 
 </body>
