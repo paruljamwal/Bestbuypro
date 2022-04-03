@@ -215,16 +215,19 @@
    #accountoption{
       border: 0px solid black;
       width: 30%;
-      height: 500px;
+      height: 150px;
       scrollbar-width: thin;
-      position: absolute;
+      position:relative;
       background-color: rgb(255, 255, 255);
       /* opacity: .9; */
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
       margin-left:40% ;
       overflow: scroll;
       display: none;
+      /* overflow-y: auto; */
       overflow-x: hidden;
+  
+      /* overflow: hidden; */
    }
    .acc , .order , .pro , .pay{
       border-bottom: gray 1px solid;
